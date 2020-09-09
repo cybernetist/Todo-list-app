@@ -24,6 +24,7 @@ const TaskListContextProvider = props => {
     setTasks(tasks.filter(task => task.id !== id))
   }
 
+
   // Clear tasks
   const clearList = () => {
     setTasks([])
